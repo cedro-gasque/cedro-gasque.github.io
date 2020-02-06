@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Demo Post!
-image: /img/avatar-icon.png
+title: Power Creep
+subtitle: A brief study on how cards have become quantifiably better over time in the game "Magic: the Gathering".
+image: /img/gray-ogre.png
 ---
 
 # My Page
