@@ -13,7 +13,9 @@ create new elements that can outcompete old game elements in order to sell their
 
 ![Power Creep versus R&D at Wizards of the Coast headquarters.](https://img.scryfall.com/cards/art_crop/front/7/8/789965c4-f3c8-4ef3-8854-9b4016356d20.jpg){: .center-block :}
 
-<p align="center"><i>Power creep: the <a href="https://scryfall.com/card/ced/205/kudzu">Kudzu</a> of game design.</i></p>
+<p align="center" style="padding:0">
+	<i>Power creep: the <a href="https://scryfall.com/card/ced/205/kudzu">Kudzu</a> of game design.</i>
+</p>
 
 After doing this analysis, I learned that the increase in creature power level was intentional,
 as spells were notoriously more powerful than creatures, and the coolest creatures were often the worst.
@@ -28,7 +30,7 @@ The first step was determining how I would measure power level objectively. The 
 
 I imported my data from a wonderful source called [Magic: The Gathering Developers](https://magicthegathering.io/), using their Python SDK.
 
-![Power]
+![Power](https://img.scryfall.com/cards/art_crop/front/8/2/82c552a1-6245-4caf-8249-765ce7ea80d2.jpg){: .center-block :}
 
 First step was cleaning my data. I didn't care about the text, rulings, or translations,
 so I ended up dropping a lot of the columns.
