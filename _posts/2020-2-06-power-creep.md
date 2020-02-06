@@ -6,7 +6,6 @@ image: /img/gray-ogre.png
 
 ---
 
-# Intro
 # The Hypothesis
 
 ## Goes Down Here
