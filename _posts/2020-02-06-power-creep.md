@@ -11,9 +11,9 @@ There is always this pervasive idea of "power creep" in games like Magic: the Ga
 The idea that the power level of game elements increase over time as the creators have to
 create new elements that can outcompete old game elements in order to sell their newer product.
 
-![Power Creep versus R&D at Wizards of the Coast headquarters.](https://img.scryfall.com/cards/art_crop/front/7/8/789965c4-f3c8-4ef3-8854-9b4016356d20.jpg){: .center-block :}
+![](){: .center-block :}
+{% include image.html url="https://img.scryfall.com/cards/art_crop/front/7/8/789965c4-f3c8-4ef3-8854-9b4016356d20.jpg" description="Power creep: the [Kudzu](https://scryfall.com/card/ced/205/kudzu) of game design." alt="Power Creep versus R&D at Wizards of the Coast headquarters." %}
 
-_Power creep: the [Kudzu](https://scryfall.com/card/ced/205/kudzu) of game design._{: .center-block :}
 
 After doing this analysis, I learned that the increase in creature power level was intentional,
 as spells were notoriously more powerful than creatures, and the coolest creatures were often the worst.
