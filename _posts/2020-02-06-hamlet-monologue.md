@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Power Creep
-subtitle: A brief study on how creatures have become better over time in the game "Magic: the Gathering".
+subtitle: How creatures have improved over time
 tags: [books, shakespeare, test]
 image: /img/gray-ogre.PNG
 ---
