@@ -20,10 +20,16 @@ as spells were notoriously more powerful than creatures, and the coolest creatur
 You can read [this wonderful blog post from 2013](https://magic.wizards.com/en/articles/archive/latest-developments/where-wild-things-are-2013-11-15)
 about the idea of creature power level. 
 
-But the information is still interesting to look at (especially when you see where it spikes and drops).
+But the information is still interesting to look at (especially with drastic shifts in power level between sets).
 
 # Driving Question:
 
 ## Can you visualize the idea of "power creep" in Magic: the Gathering?
 
 I imported my data from a wonderful source called [Magic: The Gathering Developers](https://magicthegathering.io/), using their Python SDK.
+
+First step was cleaning my data. I didn't care about the text, rulings, or translations, so I ended up dropping a lot of the columns.
+I was also only going to analyze creatures, so I dropped everything that was not a creature.
+Finally, I left out a long list of sets that were all reprints or non competitive sets with enough unique cards to represent useful sample sizes.
+
+I ended up with
