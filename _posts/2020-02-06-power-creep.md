@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Power Creep" in Magic: the Gathering
+title: "Power Creep"
 subtitle: How creatures have improved over time
 tags: [magic, data, lambda]
 image: /img/gray-ogre.PNG
