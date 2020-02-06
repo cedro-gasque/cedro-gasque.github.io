@@ -1,8 +1,9 @@
 ---
 layout: post
-title: To be
-subtitle: ... or not to be?
+title: Power Creep
+subtitle: A brief study on how creatures have become better over time in the game "Magic: the Gathering".
 tags: [books, shakespeare, test]
+image: /img/gray-ogre.PNG
 ---
 
 To be, or not to be--that is the question:
