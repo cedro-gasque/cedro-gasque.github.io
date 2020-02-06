@@ -13,7 +13,7 @@ create new elements that can outcompete old game elements in order to sell their
 
 ![Power Creep versus R&D at Wizards of the Coast headquarters.](https://img.scryfall.com/cards/art_crop/front/7/8/789965c4-f3c8-4ef3-8854-9b4016356d20.jpg){: .center-block :}
 
-_Power creep: the [Kudzu](https://scryfall.com/card/ced/205/kudzu) of game design._ {style=text-align:center}
+<p align="justify">_Power creep: the [Kudzu](https://scryfall.com/card/ced/205/kudzu) of game design._</p>
 
 After doing this analysis, I learned that the increase in creature power level was intentional,
 as spells were notoriously more powerful than creatures, and the coolest creatures were often the worst.
