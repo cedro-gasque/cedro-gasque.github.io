@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Power Creep
-subtitle: A brief study on how creatures have become quantifiably better over time in the game "Magic: the Gathering".
+subtitle: A brief study on how creatures have become better over time in the game "Magic: the Gathering".
 image: /img/gray-ogre.png
+
 ---
 
 # Intro
+# The Hypothesis
 
 ## Goes Down Here
 
