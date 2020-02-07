@@ -126,7 +126,7 @@ Due to legal reasons, this graph exists. Do not question it.
 
 <figure class="center-block">
   <img src="../img/accumulate_creature_types.png" alt="You should really see these graphs, they're the entire point of the article." title="Imagine the XP debuffs. I stole this joke from a Gatherer comment." />
-  <figcaption align="center"><i><a href="">Seton's Scout</a>: the DM's nightmare.</i></figcaption>
+  <figcaption align="center"><i><a href="https://scryfall.com/card/tor/138/setons-scout">Seton's Scout</a>: the DM's nightmare.</i></figcaption>
 </figure>
 
 As you can see, the average amount of creature types probably increased over time.
