@@ -58,7 +58,7 @@ Then, all I had to do was graph the average of this ratio of every set versus th
 
 I used the term "Mean Cost Efficiency", which is that average ratio I just mentioned, but it sounds much fancier when even I don't know what it means.
 
-<h5 align="center">Over-all Power Creep</h5>
+<h3 align="center">Over-all Power Creep</h3>
 <figure class="center-block">
   <img src="../img/accumulate_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="I think I'm starting to see a trend here..." />
   <figcaption align="center"><i>Working with Seaborn might be almost as frustrating as vanilla Matplotlib. <b>Almost.</b></i></figcaption>
