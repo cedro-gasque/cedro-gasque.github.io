@@ -43,13 +43,20 @@ non-competitive sets without enough unique cards to represent useful sample size
 
 I ended up with a still pretty large dataset even after so many exclusions, with over 10000 unique cards.
 
+<figure class="center-block">
+  <img src="https://img.scryfall.com/cards/art_crop/front/6/4/6438dc8e-eb21-4db7-aeab-bb062acd6029.jpg" alt="You just missed him. He was muttering, \"I'm late! I'm late!\" and staring at a pocketwatch." title="A rabbit, a demon, and a mermaid walk into a bar..." />
+  <figcaption align="center"><i>Some more unique than others.</i></figcaption>
+</figure>
+
 The next step was actually creating the data point I would be comparing.
 This wasn't very difficult, as I just used the ratio between
 the total power and toughness and the converted mana cost of each card.
 
-Then, all I had to do was graph the mean of this ratio of every set versus the release date of that set, and a line of best fit for good measure.
+Then, all I had to do was graph the average of this ratio of every set versus the release date of that set, and a line of best fit for good measure.
 
 ## The graphs!
+
+I used the term "Mean Cost Efficiency", which is that average ratio I just mentioned, but it sounds much fancier when even I don't know what it means.
 
 <h5 align="center">Over-all Power Creep</h5>
 <figure class="center-block">
@@ -57,25 +64,70 @@ Then, all I had to do was graph the mean of this ratio of every set versus the r
   <figcaption align="center"><i>Working with Seaborn might be almost as frustrating as vanilla Matplotlib. <b>Almost.</b></i></figcaption>
 </figure>
 
-Even without the regression line
+Even without the regression line you can see a pretty consistent trend, which matches what I later learned about creature design from the designers' blog posts.
 
 <figure class="center-block">
-  <img src="../img/white_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="White Weenies bulk up." />
-  <figcaption align="center"><i>White power creep.</i></figcaption>
+  <img src="../img/white_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="White Weenies rise up!" />
+  <figcaption align="center"><i>Steep creep.</i></figcaption>
 </figure>
+
+I wasn't expecting White to have such a big increase,
+considering it had some of the best cards of the early days of Magic,
+like [Savanna Lions](https://scryfall.com/card/lea/38/savannah-lions) and [Serra Angel](https://scryfall.com/card/lea/39/serra-angel).
+
 <figure class="center-block">
-  <img src="../img/blue_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="I think I'm starting to see a trend here..." />
-  <figcaption align="center"><i>Working with Seaborn might be almost as frustrating as vanilla Matplotlib. <b>Almost.</b></i></figcaption>
+  <img src="../img/blue_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="My Serendib Djinn deck needs no Power 9!" />
+  <figcaption align="center"><i>Blue is known best for its spells, but the creatures got better, too.</i></figcaption>
 </figure>
+
+One of the things I read about actually was closing the gap between spells and creatures.
+It's interesting how far above the line the first sets were considering those are also the sets with the best Blue spells.
+
+
 <figure class="center-block">
-  <img src="../img/black_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="I think I'm starting to see a trend here..." />
-  <figcaption align="center"><i>Working with Seaborn might be almost as frustrating as vanilla Matplotlib. <b>Almost.</b></i></figcaption>
+  <img src="../img/black_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="Consistency is rule number thirteen of proper evil etiquette." />
+  <figcaption align="center"><i>The spike is because of one single card: <a href="https://scryfall.com/card/wwk/57/deaths-shadow">Death's Shadow</a>. It's even played competitively!</i></figcaption>
 </figure>
+
+This one might be the most interesting, just based on the consistency. The power level hugs the line of best fit much closer than any of the other colors.
+
 <figure class="center-block">
-  <img src="../img/red_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="I think I'm starting to see a trend here..." />
-  <figcaption align="center"><i>Working with Seaborn might be almost as frustrating as vanilla Matplotlib. <b>Almost.</b></i></figcaption>
+  <img src="../img/red_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="It looks like fire! So bright... So red..." />
+  <figcaption align="center"><i>Red is the color most associated with aggression.</i></figcaption>
 </figure>
+
+Honestly, Red probably has the least I can say about it compared to the other colors. It's just... Red.
+
 <figure class="center-block">
-  <img src="../img/green_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="I think I'm starting to see a trend here..." />
-  <figcaption align="center"><i>Working with Seaborn might be almost as frustrating as vanilla Matplotlib. <b>Almost.</b></i></figcaption>
+  <img src="../img/green_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="The entire point of Data Analysis is to see the forest for the trees." />
+  <figcaption align="center"><i>Green is unsurprisingly big, and doesn't need that much power creep.</i></figcaption>
 </figure>
+
+Green has always had the identity of big, expensive creatures,
+so it's not surprising how high it started at the beginning,
+and how slow it climbed over the years. If you're wondering,
+that low point was from a set where a lot of Green creatures had
+zero power and toughness, but entered play with counters that
+increased their stats. That isn't accounted for by my data, though,
+so it remains an outlier.
+
+<figure class="center-block">
+  <img src="../img/colorless_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="This graph is a statistical artifact." />
+  <figcaption align="center"><i>Colorless creatures: they technically exist.</i></figcaption>
+</figure>
+
+## Conclusion
+
+The question I attempted to answer was surprisingly easy to answer. The data had a visible pattern, even without the regression line. Looking at the data for each color gave some interesting insights about color specific power creep.
+
+## Bonus
+
+Due to legal reasons, this graph exists. Do not question it.
+
+<figure class="center-block">
+  <img src="../img/accumulate_creature_types.png" alt="You should really see these graphs, they're the entire point of the article." title="Imagine the XP debuffs. I stole this joke from a Gatherer comment." />
+  <figcaption align="center"><i><a href="">Seton's Scout</a>: the DM's nightmare.</i></figcaption>
+</figure>
+
+As you can see, the average amount of subtypes probably increased over time.
+But that's just because Wizards of the Coast hasn't errata'd enough cards.
