@@ -41,7 +41,7 @@ I was also only going to analyze creatures, so I dropped everything that was not
 Finally, I left out a long list of sets that were all reprints or
 non-competitive sets without enough unique cards to represent useful sample sizes.
 
-I ended up with a still pretty large dataset even after so many exclusions, with over 10000 unique cards.
+I ended up with a still pretty large dataset even after so many exclusions, with over 10,000 unique cards.
 
 <figure class="center-block">
   <img src="https://img.scryfall.com/cards/art_crop/front/6/4/6438dc8e-eb21-4db7-aeab-bb062acd6029.jpg" alt="I'm late! I'm late! For a very important date!" title="A rabbit, a demon, and a mermaid walk into a bar..." />
@@ -113,7 +113,7 @@ so it remains an outlier.
 
 <figure class="center-block">
   <img src="../img/colorless_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="This graph is a statistical artifact." />
-  <figcaption align="center"><i>Colorless creatures: they technically exist.</i></figcaption>
+  <figcaption align="center"><i><a href="https://scryfall.com/card/mir/315/phyrexian-dreadnought">Colorless creatures</a>: they technically exist.</i></figcaption>
 </figure>
 
 ## Conclusion
@@ -129,5 +129,5 @@ Due to legal reasons, this graph exists. Do not question it.
   <figcaption align="center"><i><a href="">Seton's Scout</a>: the DM's nightmare.</i></figcaption>
 </figure>
 
-As you can see, the average amount of subtypes probably increased over time.
+As you can see, the average amount of creature types probably increased over time.
 But that's just because Wizards of the Coast hasn't errata'd enough cards.
