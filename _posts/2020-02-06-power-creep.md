@@ -51,7 +51,7 @@ Then, all I had to do was graph the mean of this ratio of every set versus the r
 
 ## The graphs!
 
-<h5 align="center>Over-all Power Creep</h5>
+<h5 align="center">Over-all Power Creep</h5>
 <figure class="center-block">
   <img src="../img/accumulate_power_creep.png" alt="You should really see these graphs, they're the entire point of the article." title="I think I'm starting to see a trend here..." />
   <figcaption align="center"><i>Working with Seaborn might be almost as frustrating as vanilla Matplotlib. <b>Almost.</b></i></figcaption>
