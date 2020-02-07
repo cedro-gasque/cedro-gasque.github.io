@@ -44,7 +44,7 @@ non-competitive sets without enough unique cards to represent useful sample size
 I ended up with a still pretty large dataset even after so many exclusions, with over 10000 unique cards.
 
 <figure class="center-block">
-  <img src="https://img.scryfall.com/cards/art_crop/front/6/4/6438dc8e-eb21-4db7-aeab-bb062acd6029.jpg" alt="You just missed him. He was muttering, \"I'm late! I'm late!\" and staring at a pocketwatch." title="A rabbit, a demon, and a mermaid walk into a bar..." />
+  <img src="https://img.scryfall.com/cards/art_crop/front/6/4/6438dc8e-eb21-4db7-aeab-bb062acd6029.jpg" alt="I'm late! I'm late! For a very important date!" title="A rabbit, a demon, and a mermaid walk into a bar..." />
   <figcaption align="center"><i>Some more unique than others.</i></figcaption>
 </figure>
 
