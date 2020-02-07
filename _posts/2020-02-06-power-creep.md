@@ -12,7 +12,7 @@ The idea that the power level of game elements increase over time as the creator
 create new elements that can outcompete old game elements in order to sell their newer product.
 
 <figure class="center-block">
-  <img src="https://img.scryfall.com/cards/art_crop/front/7/8/789965c4-f3c8-4ef3-8854-9b4016356d20.jpg" alt="Your computer is now property of Kudzu." title="Power Creep versus R&D at Wizards of the Coast headquarters." />
+  <img align="center" src="https://img.scryfall.com/cards/art_crop/front/7/8/789965c4-f3c8-4ef3-8854-9b4016356d20.jpg" alt="Your computer is now property of Kudzu." title="Power Creep versus R&D at Wizards of the Coast headquarters." />
   <figcaption align="center"><i>Power creep: the <a href="https://scryfall.com/card/ced/205/kudzu">Kudzu</a> of game design.</i></figcaption>
 </figure>
 
