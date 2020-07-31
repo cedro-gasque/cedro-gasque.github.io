@@ -6,8 +6,11 @@ tags: [algorithms, python, data-science]
 image: /img/gray-ogre.PNG
 ---
 
+How I did it.
+
 For this project,
-I was tasked with building a _k_-Nearest Neighbors algorithm (nearly) from scratch.
+I was tasked with building a _k_-Nearest Neighbors algorithm from scratch.
+
 ## What is _k_-Nearest Neighbors?
 _k_-Nearest Neighbors is what is called "lazy" machine learning,
 as no learning is actually done.
