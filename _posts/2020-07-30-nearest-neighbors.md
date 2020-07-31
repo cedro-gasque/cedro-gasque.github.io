@@ -66,7 +66,7 @@ This function is where all the magic happens. I'll break down every line,
 because I shoved as much stuff into them as possible.
 
 This line both calls the formula on the point,
-and also builds an array with the values corresponding to `['x', 'y', 'dist', 'class']`.
+and also builds an array with the values arranged like `['x', 'y', 'dist', 'class']`.
 
 ```python
 def predict(self, point):
@@ -78,7 +78,7 @@ These two lines (I know, I lied) put the array into a Pandas DataFrame,
 then sorts the values using Pandas...
 because I couldn't figure out how to do it with NumPy.
 
-This corresponds to the points sorted from closest to farthest.
+This sorts the points from closest to farthest.
 
 ```python
     distances = pd.DataFrame(data=distances, columns=['x', 'y', 'dist', 'class'])
@@ -97,11 +97,12 @@ and returns the majority classification using Pandas' `value_counts`.
 Now, an interesting comparison between my KNN model and the `sk-learn` KNN model.
 My model is slower because I didn't think in 3 dimensions,
 so you can only input one point at a time into the `predict` method.
+
 It's astronomically slow calculating the distance for every point,
 instead of them all together.
 
 But the real kicker here is...
-the k=1 decision boundaries are _different_ between my model and `sk-learn`.
+the `k = 1` decision boundaries are _different_ between my model and `sk-learn`.
 
 I used the function I found <a href="https://towardsdatascience.com/easily-visualize-scikit-learn-models-decision-boundaries-dd0fb3747508">here</a> to visualize the models (modified significantly when working with my model).
 
