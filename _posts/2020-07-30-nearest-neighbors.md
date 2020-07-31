@@ -3,7 +3,7 @@ layout: post
 title: "Nearest Neighbors"
 subtitle: Writing a nearest neighbors algorithm from "scratch"
 tags: [algorithms, python, data-science]
-image: /img/gray-ogre.PNG
+image: /img/hal.png
 ---
 
 How I did it.
