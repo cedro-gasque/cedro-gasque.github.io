@@ -117,7 +117,7 @@ I used the Iris dataset, which can be directly found here.
 
 <figure class="center-block">
   <img src="../img/decision_boundaries_sklearn.png" alt="Browsing this website on lite-mode is really taking a toll on your experience." title='That one yellow point at the bottom: "Nobody thinks what I think."' />
-  <figcaption align="center"><i>Decision boundaries with the `sk-learn` classifier.</i></figcaption>
+  <figcaption align="center"><i>Decision boundaries with the Scikit-Learn classifier.</i></figcaption>
 </figure>
 
 As you can see, they're almost the same except for some arbitrary differences.
