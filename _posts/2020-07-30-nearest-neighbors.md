@@ -16,9 +16,9 @@ _k_-Nearest Neighbors is what is called "lazy" machine learning,
 as no learning is actually done.
 A _k_-Nearest Neighbors model just remembers the input data,
 and then when the `predict` method is called,
-it just checks the distance between the input points and every point in the input data,
-then returns the majority class from the _k_ closest points
-(hence _k_-Nearest Neighbors) to the input points.
+it checks the distance between the input points and every point in the input data,
+returning the majority class from the _k_ closest points
+(hence _k_-Nearest Neighbors).
 
 ## How it's made
 
@@ -33,7 +33,7 @@ import pandas as pd
 
 I wrote a simple Euclidian distance function using NumPy's matrix multiplication.
 The parameter is just optimization.
-This is just the default value for the distance formula.
+This is the default value for the distance formula.
 
 ```python
 def distance(pointA, pointB, _norm=np.linalg.norm):
